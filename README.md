@@ -1,6 +1,8 @@
 # Cure N Care
 > A care that everyone needs.
 
+![Cure N Care](https://www.themobileindian.com/public/uploads/editor/2020-04-16/practo.png)
+
 
 # TEAM MEMBERS : 
 
