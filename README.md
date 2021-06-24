@@ -17,6 +17,10 @@
 * The health care goal of system is health development i.e. a process of continuous and progress improvement of health status of a population.
 
 
+![Cure N Care Dashboard](https://www.matellio.com/blog/wp-content/uploads/2020/04/Practo-1024x514.png)
+
+
+
 
 ## Presentation[ppt] :
 
