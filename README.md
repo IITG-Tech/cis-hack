@@ -14,8 +14,6 @@
 
 * The health care goal of system is health development i.e. a process of continuous and progress improvement of health status of a population.
 
-![Alt text]( https://user-images.githubusercontent.com/56252933/113469572-2bf83e00-946c-11eb-95e6-28ae40665cf4.png "Park.ai")
-![Alt text]( https://user-images.githubusercontent.com/56252933/113469575-361a3c80-946c-11eb-86fa-ac26c50cb711.jpeg "Park.ai")
 
 
 # Presentation(ppt) :
