@@ -1,0 +1,8 @@
+                                                               PauseToResume
+
+Our initiative PAUSE TO RESUME is an efficient solution to reduce the Spread of covid by strictly tracking the travel history of people without manual intervention and thereby quarantining individuals suspected to have covid.
+->Helps government to reduce the spread of covid 
+->Automate human process
+->Prevent spread of covid due to close contact with the means of   data  entry used in conventional mode
+->People get to know about the covid status of other people they mingled with. 
+->Ensures quarantine of suspected individuals without any fail
