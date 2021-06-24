@@ -1,0 +1,30 @@
+PROBLEM
+As part of the distribution network, multiple entities will be involved in either storing or transporting the vaccine and the major challenge would be monitoring of parameters at various distribution entities. At each transfer point from the factory to the patient, drugs can be stolen, adulterated, and replaced. The result of such malpractice leads to financial loss to the drug makers, and more importantly, significant risk to patient safety as Storage and handling errors can cost thousands of dollars to the company in wasted vaccine and revaccination. And this is why we wanna introduce ’Co-shield’.
+
+SOLUTION
+So our solution goes like, as the vaccine moves through the supply chain, each transition is automatically pushed into the internal systems and is registered with a time-stamp in a blockchain ledger. This will ensure security and safety of the product. Due to decentralization in blockchain, all the associated necessary data will be visible to the stakeholders without compromising the security. Further, manufacturing inputs, like active pharmaceutical ingredients are also tracked and linked to the final vaccine vials. The blockchain documents essential details of all the vials from the attached IoT devices, thereby making the journey visible to all. Also, including a digital passport stating that the consumer is vaccinated, enables them to return to their daily life.
+
+KEY FEATURES
+*Fool proof and transparent distribution system for drug transportation using Blockchain. This will help reduce the black marketing of essential life saving drugs and vaccines.
+*IOT based real-time sensor data to notify transporters about any possible cold chain breach, conjunction in route or vehicle failure.
+*Amidst the shortage of Oxygen and other Life-saving drugs, we will notify you about any possible availablity of such medical equipments and drugs.
+*QR Code Scanner on every vaccine to access the past history.
+*Machine-Learning powered dedicated chat-bot that gives you the probability of you being Covid-19 positive based on some General Questions.
+*Another Machine-Learning powered chat bot that takes in any symptom you are facing and other similar questions to predict what disease you are facing.
+*Use of Blockchain API's to Update consumer and vaccine information.
+*Transparent reviewing system for each consumer, where they can share the after-effects of applying the vaccine.
+
+TECH-STACK AND TECHNOLOGIES USED:
+*Blockchain
+*IOT (Internet of Things)
+*Machine Learning
+*Truffle
+*Ganache
+*Etherium
+*Solidity
+*Flutter
+*Javascript
+*Babel
+*Tensorflow
+*Web3
+*Kotlin
