@@ -1,27 +1,39 @@
-![](https://storage.googleapis.com/incind/CISDarkeLJBiNH.png)
+# Cure N Care
+> A care that everyone needs.
 
-## Code Innovation Hackathon - IIT-G.
-This is the official Idea/project submission repository for CODE INNOVATION SERIES HACKATHON - IIT-G.
+![Cure N Care](https://www.themobileindian.com/public/uploads/editor/2020-04-16/practo.png)
 
-## Submission Procedure
-Read the following steps and guidelines properly for proper submission of your project. Missing out any step or performing it wrongly can lead to unsuccessful submission. 
 
-### Step 1
-#### Fork this repository
+## TEAM MEMBERS : 
 
-### Step 2
-#### Create a New Folder within the forked repository, with the 'folder name' being your 'Team Name'
+* [BANDI PAVAN KUMAR](bandi.kumar@s.amity.edu)
 
-## Contents of the folder
-+ The project directory.
-+ The presentation that you will be presenting while presenting your project before the judges.
-+ A text file that contains proper documentation. The documentation should contain:
-    - A description of your project.
-    - The contents of your project directory.
-    - Ways to host your project on the localhost.
-+ The name of the 'pptx' and 'text' files should also be the 'team name'.
+* [RIYA PATRO](riya.patro@s.amity.edu)
 
-### People with only hardware solution are required to submit only the 'pptx' and 'text' files. A link to the video demonstration of your working model should also be included in both the files.
+## Overview
 
-\
-You can complete your work on the local machine and then upload your project folder in the forked repository and proceed to create a Pull Request (PR).
+* Health care is a multitude of services rendered to individual, families or communities by the agent of health services or professions for the purposes of promoting, maintaining monitoring or restoring health.
+
+* The health care goal of system is health development i.e. a process of continuous and progress improvement of health status of a population.
+
+
+![Cure N Care Dashboard](https://www.matellio.com/blog/wp-content/uploads/2020/04/Practo-1024x514.png)
+
+
+
+
+## Presentation[ppt] :
+
+[Cure N Care ppt ](https://drive.google.com/file/d/18T1ExMw_iiHVYU3scicWrHioeABpXnCq/view)
+
+
+
+## Tech Stack used
+
+* java
+* Fire Base
+
+## Conclusion
+
+we need a healthy life style to build up a healthy immune system and to avoid disease so this app can be fruitfull for maintaining the health.
+
