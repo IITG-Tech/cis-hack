@@ -1,4 +1,6 @@
                                                                PauseToResume
+Link to our prototype video:
+https://app.animaker.com/animo/I0nI9iCmWdXPlKCZ/
 
 Our initiative PAUSE TO RESUME is an efficient solution to reduce the Spread of covid by strictly tracking the travel history of people without manual intervention and thereby quarantining individuals suspected to have covid.
 ->Helps government to reduce the spread of covid 
