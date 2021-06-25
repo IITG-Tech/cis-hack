@@ -28,3 +28,96 @@ TECH-STACK AND TECHNOLOGIES USED:
 *Tensorflow
 *Web3
 *Kotlin
+
+PROJECT DIRECTORY
+*The project directory contains our prototype for the project which is an apk file of our flutter project.
+*The apk is configured to listen to API's hosted on the local machine procedure to implement which is listed below.
+*However, to test the workflow and functionalities of our app we have provided a special guest access using which you can access our app and view the workflow.
+
+RUNNING CODE ON LOCAL MACHINE
+*Our project consists of two parts namely the Blockchain and Web API's and the Flutter Application.
+*Blockchain and Web API's - https://github.com/kshitij-arora/Co-Shield.git
+Co-Shield is a Blockchain-powered software system for smooth and secure distribution of any vaccine at the time of the Global Pandemic.
+Installation
+Download node.js to install Co-Shield.
+Download the whole code, and in the project folder, run the following command to install all the necessary packages for this project.
+npm install
+Next, start the ganache application with the following command and keep the terminal live. This will start Ganache with 10 accounts at the Network ID 100. Gas Limit is set to high to prevent any out of gas errors.
+ganache-cli --networkId 100 -a 10 --gasPrice 1 --gasLimit 8000000
+Now, in a new terminal, (keeping the previous one live) enter the following command to deploy Truffle Smart Contracts.
+truffle migrate
+Finally, to run the project, type the following command
+npm start
+Now, if all the steps are successfully executed, the project is ready to listen at port 8545 of localhost:
+http://127.0.0.1:8545
+Usage
+After successfully starting the project, you may make the post requests on the following routes. Post requests should be made in JSON format as mentioned below.
+Add Consumer Data
+Listening at- /addconsumer
+Input:
+{"aId": 1, "name": "Consumer1", "age": 1}
+Output:
+{"success":"1","aId":"1","name":"Consumer1","age":"1","vaccinated":false,"vacId":"0"}
+Get Consumer Data
+Listening at- /getconsumer
+Input:
+{"aId": 1}
+Output:
+{"success":"1","aId":"1","name":"Consumer1","age":"1","vaccinated":false,"vacId":"0"}
+Add Manufacturer/Distributor Data
+Listening at- /adddistributor
+Input:
+{"id": 1, "name": "name1", "vaccineName": "vaccine1"}
+Output:
+{"success":"1","id":"1","name":"name1","vaccineName":"vaccine1"}
+Get Manufacturer/Distributor Data
+Listening at- /getdistributor
+Input:
+{"id": 1}
+Output:
+{"success":"1","id":"1","name":"name1","vaccineName":"vaccine1"}
+Add Vaccine Data
+Listening at- /addvaccine
+Input:
+{"id": 1, "vaccineName": "vaccine1", "distributorName": "distributorname1", "transporter": "transporter1"}
+Output:
+{"success":"1","id":"1","vaccineName":"vaccine1","distributorName":"distributorname1","transporter":"transporter1"}
+Get Vaccine Data
+Listening at- /getvaccine
+Input:
+{"id": 1}
+Output:
+{"success":"1","id":"1","vaccineName":"vaccine1","distributorName":"distributorname1","transporter":"transporter1","temp":"100","loc":"N/A","consumed":false,"consumedBy":"0"}
+Consume Vaccine
+Listening at- /makevaccinated
+Input:
+{"id": 1, "aId": 1}
+Output:
+{"success":"1","consumedVaccine":"1","consumedBy":"1"}
+Wrong/Invalid Inputs
+If the user provides an invalid input, the success value will be 0, else, it will remain 1.
+Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+* Flutter Application: https://github.com/kjain333/Co-Shield.git
+We have used Flutter as a cross-platforming tool to provide our application to all users (android and ios) from a single code base.
+Installation:
+*Clone the project into Android Studio with Flutter set up.
+*Enable Dart Support for the project.
+*Install all dependencies using "flutter pub get"
+*Use "flutter run lib/main.dart" to run the app locally on emulator or physically connected device.
+Features:
+The application has been built with two interfaces - one for the Consumer and other for the Supplier.
+Features available at Consumer Interface:
+*Storehouse for Medical Records
+*Virtual Healthcare Assistant - A ML based Chatbot which predicts disease who might have based on your symptoms
+*Chat Communities where experienced proffesionals can share beneficial information
+*Remind Me page where you can set up reminders for important meetings, appointments etc.
+*QR Code Scanner - To scan the QR code on vaccine vials and get all details related to storage temperature, manufacturer etc.
+*Your vaccination status and consumer feedback
+*Details about all vaccine suppliers and their consumer reviews
+Features available at Supplier Interface:
+*Supplier profile to view consumer reviews and improve delivery system based upon them
+*Add vaccination to be used when a particular user has been vaccinated
+*Transporter information with can tell them about any cold chain breach, conjuction in route, or missing vaccines
+*Transporters can also report vehicle failure so that nearest transporter can be re-routed to him and prevent any loss of vaccine
